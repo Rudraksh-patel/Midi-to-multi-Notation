@@ -69,12 +69,3 @@ Make sure you have Node.js (version 18 or above) installed.
 *   **Beat Formatting (`notationEngines.js`)**: Breaks notes into logical lines based on silence durations, groups them into rhythmic beats, and inserts trailing dashes (e.g., `Sa - -`) to denote held sustain intervals.
 
 ---
-
-## 📦 Deployment
-
-This repository is set up with **GitHub Actions**. Pushing any changes to the `main` branch will automatically build the production files and deploy them directly to your **GitHub Pages** domain.
-
-To configure Pages on your repository:
-1. Go to your repository settings page on GitHub.
-2. In the left-hand menu, select **Pages**.
-3. Under **Build and deployment** > **Source**, change the dropdown to **GitHub Actions**.
